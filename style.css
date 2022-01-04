@@ -1,0 +1,51 @@
+div{
+    margin: 10px;
+}
+.button {
+    transition-duration: 0.4s;
+    text-align: center;
+    color : white;
+    cursor: pointer;
+}
+  
+.search{
+   border: 2px solid rgba(118, 247, 206, 0.8);
+   background-color: white;
+   color: rgba(118, 247, 206, 0.8);
+   font-weight: bold;
+   width: 100px;
+   border-radius: 12px;
+}
+
+.search:hover {
+    background-color: rgba(118, 247, 206, 0.8);
+    color: white;
+  
+}
+
+.add{
+    border: 1px whitesmoke;
+    background-color: rgba(71, 244, 204, 0.8);
+    color: white;
+    border-radius: 50%;
+}
+
+.add:hover{
+    background-color: white;
+    color: rgba(71, 244, 204, 0.8);
+    
+}
+
+.account{
+    border: 1px solid black;
+    background-color: blue;
+    color: lightgray;
+    box-shadow: 2px 3px 3px black;
+    
+}
+
+.account:hover{
+    border: none;
+    background-color: lightgray ;
+    color: blue;
+}
